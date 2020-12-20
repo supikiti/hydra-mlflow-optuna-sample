@@ -51,6 +51,7 @@ def main(cfg):
             running_loss = 0.0
             log_params_from_omegaconf_dict(cfg)
             for i, (x, y) in enumerate(trainloader):
+                steps = epoch * len(trainloader) + i
                 optimizer.zero_grad()
 
                 outputs = model(x)
@@ -60,7 +61,7 @@ def main(cfg):
 
                 running_loss += loss.item()
         
-                mlflow.log_metric("loss", running_loss)
+                mlflow.log_metric("loss", loss.item(), step=steps)
 
             correct = 0
             total = 0
@@ -72,7 +73,7 @@ def main(cfg):
                     correct += (predicted == y).sum().item()
 
             accuracy = float(correct / total)
-            mlflow.log_metric("acc", accuracy)
+            mlflow.log_metric("acc", accuracy, step=epoch)
 
 if __name__ == '__main__':
     main()
