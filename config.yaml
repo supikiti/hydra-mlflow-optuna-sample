@@ -16,3 +16,30 @@ test:
 
 mlflow: 
   runname: "sample"
+
+
+defaults:
+  - hydra/sweeper: optuna
+
+hydra:
+  sweeper:
+    optuna_config:
+      direction: minimize
+      study_name: sphere
+      storage: null
+      n_trials: 20
+      n_jobs: 1
+      sampler: tpe
+      seed: 123
+
+#    search_space:
+      #model.node1:
+        #type: int
+        #low: 12
+        #high: 512
+        #step: 6
+      #model.node2:
+        #type: int
+        #low: 12
+        #high: 512
+        #step: 6
