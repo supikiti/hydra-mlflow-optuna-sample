@@ -1,3 +1,4 @@
+# config.yaml
 model:
   node1: 128
   node2: 64
