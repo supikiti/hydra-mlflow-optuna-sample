@@ -75,5 +75,7 @@ def main(cfg):
             accuracy = float(correct / total)
             mlflow.log_metric("acc", accuracy, step=epoch)
 
+    return accuracy
+
 if __name__ == '__main__':
     main()
