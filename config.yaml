@@ -1,0 +1,17 @@
+model:
+  node1: 128
+  node2: 64
+
+optimizer:
+  lr: 0.001
+  momentum: 0.9
+
+train:
+  epoch: 1
+  batch_size: 64
+
+test:
+  batch_size: 64
+
+mlflow: 
+  runname: "sample"

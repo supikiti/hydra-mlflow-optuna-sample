@@ -1,0 +1,6 @@
+pytorch-lightning
+optuna
+torch
+torchvision
+hydra-core
+hydra-optuna-sweeper
