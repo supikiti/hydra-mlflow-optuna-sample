@@ -1,0 +1,9 @@
+hydra
+MNIST/
+multirun/
+outputs/
+mlruns
+*.ipynb
+conf/
+*.txt
+*.pyc
