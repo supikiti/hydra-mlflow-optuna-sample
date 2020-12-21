@@ -2,7 +2,7 @@
 研究室輪講用に作成した，hydra + mlflow + optuna のサンプルコードです．
 
 ## 発表資料
-https://speakerdeck.com/supikiti/hydradeshi-meruhaiparaguan-li
+https://speakerdeck.com/supikiti/hydra-mlflow-optuna
 
 ## 実行環境
 Python 3.8.0
