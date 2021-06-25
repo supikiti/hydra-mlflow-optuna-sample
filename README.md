@@ -1,5 +1,5 @@
 # 概要
-研究室輪講用に作成した，hydra + mlflow + optuna のサンプルコードです．
+hydra + mlflow + optuna のサンプルコードです．
 
 ## 発表資料
 https://speakerdeck.com/supikiti/hydra-mlflow-optuna
