@@ -2,7 +2,8 @@
 hydra + mlflow + optuna のサンプルコードです．
 
 ## 発表資料
-https://speakerdeck.com/supikiti/hydra-mlflow-optuna
+[研究室輪講時資料](https://speakerdeck.com/supikiti/hydra-mlflow-optuna)
+[Optuna Meetup #1 登壇時資料](https://speakerdeck.com/supikiti/hydra-mlflow-optunafalsezu-mihe-wasedeshou-qing-nishi-meruhaipaparametaguan-li-210b3f53-5c57-4468-b7c8-07ba5f1f05a4)
 
 ## 実行環境
 Python 3.8.0
