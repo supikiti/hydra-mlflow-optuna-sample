@@ -1,8 +1,10 @@
-# 概要
-hydra + mlflow + optuna のサンプルコードです．
+# Abstract
+This is sample codes for hydra + mlflow + optuna
 
-## 参考資料
+## Slides & Articles
 [研究室輪講時資料 (2.6k view)](https://speakerdeck.com/supikiti/hydra-mlflow-optuna)
+
+<script async class="speakerdeck-embed" data-id="903466469ab241dda8852d4e73def85d" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 [Optuna Meetup #1 登壇時資料](https://speakerdeck.com/supikiti/hydra-mlflow-optunafalsezu-mihe-wasedeshou-qing-nishi-meruhaipaparametaguan-li-210b3f53-5c57-4468-b7c8-07ba5f1f05a4)
 
